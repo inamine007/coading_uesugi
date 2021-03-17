@@ -1,0 +1,38 @@
+////////////////////
+// 基本設定
+///////////////////
+
+// 幅関係 --------------------
+$width-base: 1200px;
+$width-main: 800px;
+$width-side: 360px;
+
+// フォント関係 --------------------
+$font-base: "Yu Gothic", Sans-Serif;
+$font-serif: "Yu Mincho", serif;
+
+// 色関係 --------------------
+// サイトカラー
+$color-main: #fff;
+$color-sub: #ff8cdd;
+// フォントカラー
+$color-font: #333;
+// リンクカラー
+$color-link: #ff8c28;
+
+// ブレイクポイント --------------------
+$breakpoints: (
+  xs: "only screen and (max-width: 320px)",
+  s: "only screen and (max-width: 575px)",
+  m: "only screen and (max-width: 767px)",
+  l: "only screen and (max-width: 991px)",
+  xl: "only screen and (min-width: 1199px)"
+);
+
+// Z-index --------------------
+$layer: (
+  modal  : 100,
+  header : 20,
+  tooltip: 10,
+  default: 1
+);

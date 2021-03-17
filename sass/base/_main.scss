@@ -1,0 +1,22 @@
+body {
+  color: $font-base;
+  background-color: $color-main;
+  font-style: $font-base;
+  line-height: 16px;
+}
+
+.test {
+  width: $width-base;
+  margin: 0 auto;
+  div {
+    background-color: $color-sub;
+  }
+  p {
+    color: red;
+  }
+  img {
+    width: width("about_01.jpg", 3);
+    height: height("about_01.jpg", 3);
+    background-size: size("about_01.jpg", 3);
+  }
+}

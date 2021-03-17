@@ -1,0 +1,57 @@
+// Clearfix --------------------
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+// LinkColor --------------------
+@mixin link-color($normal, $hover) {
+  color: $normal;
+  &:hover {
+    color: $hover;
+    text-decoration: none;
+  }
+}
+
+// LinearGradient --------------------
+@mixin linear-gradient($color: #f00, $way: to bottom, $percent: 20%) {
+  background-image: linear-gradient($way, $color 0%, lighten($color, $percent) 100%);
+}
+
+// Z-index --------------------
+@mixin z-index($key) {
+  z-index: map-get($layer, $key);
+}
+
+// Responsive Movie --------------------
+@mixin rwd-iframe($width: 16, $height: 9) {
+  position: relative;
+  padding-top: percentage($height / $width);
+  >iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+// BreakPoint --------------------
+@mixin media($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+// 背景画像(Retinaディスプレイ対応) --------------------
+@mixin bg_size($w, $h: auto) {
+  @if $h == auto {
+    background-size: round($w / 2) + px $h;
+  }
+  @else {
+    background-size: round($w / 2) + px round($h / 2) + px;
+  }
+}
