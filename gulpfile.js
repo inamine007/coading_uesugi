@@ -7,6 +7,7 @@ const plumber = require('gulp-plumber');
 const notify = require('gulp-notify');
 const sourcemaps = require('gulp-sourcemaps');
 const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
 
 const css = () => {
   return src('./sass/**/*.scss')
@@ -22,7 +23,13 @@ const css = () => {
         require('postcss-assets')({
           loadPaths: ['./public/images/']
         }),
-        require('css-mqpacker')
+        require('css-mqpacker'),
+        autoprefixer({
+          // ☆IEは11以上、Androidは4.4以上
+          // その他は最新2バージョンで必要なベンダープレフィックスを付与する設定
+          overrideBrowserslist: ["last 2 versions", "ie >= 11", "Android >= 4"],
+          cascade: false
+        })
       ])
     )
     .pipe(sourcemaps.write())
