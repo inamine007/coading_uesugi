@@ -5,18 +5,667 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>SASS雛形</title>
+  <link rel="stylesheet" href="./css/jquery.slider.css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'web5dik',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title>うえすぎ</title>
 </head>
-<body>
-  <div class="test">
-    <h1>フォントカラー</h1>
-    <h2>サブカラー</h2>
-    <div class="row">
-      <div class="col-xs-3 col-sm-4 col-md-3 col-lg-3" style="background-color: blue;">grid1</div>
-      <div class="col-xs-5 col-sm-6 col-md-5 col-lg-5" style="background-color: red;">grid2</div>
-      <div class="col-xs-12 col-sm-2 col-md-4 col-lg-4" style="background-color: orange;">grid3</div>
+<body id="top">
+<div class="container">
+  <div class="btn-box">
+    <div class="js_menu_button menu_button">
+      <li class="line1"></li>
+      <li class="line2"></li>
+      <li class="line3"></li>
     </div>
-    <img src="./images/about_01.jpg" alt="">
   </div>
+  <header>
+    <nav>
+      <ul class="link_list">
+        <li><a href="#top">ホーム</a></li><hr>
+        <li><a href="#concept">コンセプト</a></li><hr>
+        <li><a href="#features">6つの特徴</a></li><hr>
+        <li><a href="#plan">プラン</a></li><hr>
+        <li><a href="#about">ファインフルーツ <br>おおぎみについて</a></li><hr>
+        <li><a href="#customers-voice">お客様の声</a></li><hr>
+        <li><a href="#media">メディア掲載</a></li><hr>
+        <li><a href="#reservation">ご予約から配送までの流れ</a></li><hr>
+        <li><a href="#faq">よくある質問</a></li><hr>
+      </ul>
+      <div class="nav-footer">
+        <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+        <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+        <div class="dummy-space"><img src="http://placehold.it/150x150"></div>
+      </div>
+    </nav>
+  </header>
+  <div class="mv">
+    <div class="sp-area">
+      <h1 class="sp-logo"><img src="images/dummylogo.png" alt="うえすぎ"></h1>
+    </div>
+    <h1 class="logo"><img src="images/dummylogo.png" alt="うえすぎ"></h1>
+    <div class="mv-content">
+      <div class="main-title-pc"><img src="images/main-title-pc@2x.png" alt="新ブランドマンゴーうえすぎ"></div>
+      <div class="main-title-sp"><img src="images/main-title-sp@2x.png" alt="新ブランドマンゴーうえすぎ"></div>
+      <div class="flex">
+        <div class="main-subtitle"><img src="images/kv-buhin2@2x.png" alt="沖縄産最高級マンゴー"></div>
+        <div class="main-subtitle"><img src="images/kv-buhin1@2x.png" alt="糖度15度以上"></div>
+    </div>
+    </div>
+  </div>
+  <div class="cv-short">
+    <figure><img src="images/cut_img@2x.png" alt="カットマンゴー"></figure>
+    <div class="flex">
+      <div class="cv-title">
+        <h2 class="ja">うえすぎ</h2>
+        <p class="en">GINOZA OKINAWA</p>
+      </div>
+      <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+    </div>
+  </div>
+  <main>
+    <section id="concept">
+      <div class="concept-article">
+        <div class="inner">
+          <h2 class="section-title">箱入り娘のように大事に育てた<br>マンゴー</h2>
+          <p>琉球コクタンや松、イスノキやスダジイなどが連なる森の中。</p>
+          <p>栄養たっぷりの水を含んだ土壌、<br>
+            木々をなでるように吹く風、<br>
+            せっせと花粉を運ぶミツバチたち。</p>
+          <p>日の光をめいっぱい浴びた「ひめぎみ」は<br>
+            沖縄県本島北部 大宜味村で育まれた大自然とともに生まれました。</p>
+          <p>44年もの月日の中で培った栽培技術は、<br>
+            農薬の使用を極力抑えた有機肥料栽培。</p>
+          <p>樹上で熟させ1つ１つ手摘みで丁寧に包まれたひめぎみは <br>
+            あなたや、あなたの大切な方へ「あたたかい笑顔」を届けます。</p>
+          <p>ひめぎみが、みなさまの暮らしを鮮やかに彩ることを<br>南の島から願っています。</p>
+          <figure><img src="images/dummylogo.png" alt="うえすぎ">
+            <figcaption class="logo-title">
+              <h2 class="ja">うえすぎ</h2>
+              <p class="en">GINOZA OKINAWA</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="section-sub-area">
+        <div class="inner">
+          <h2 class="section-title">沖縄県の大自然が生んだ高品質マンゴー <br>「ひめぎみ」6つの特徴</h2>
+          <div class="flex">
+            <div class="features-sub-section">
+              <a href="#point1">
+                <figure class="flg"><img src="images/point1-flg@2x.png" alt="ポイント１"></figure>
+                <div class="flex">
+                  <figure class="icon point1"><img src="images/point1-icon@2x.png" alt="美味"></figure>
+                  <div class="item">
+                    <h3>美味</h3>
+                    <p>糖度15度以上の<br>濃厚な味</p>
+                  </div>
+                </div>
+                <div class="scroll-btn"></div>
+              </a>
+            </div>
+            <div class="features-sub-section">
+              <a href="#point2">
+                <figure class="flg"><img src="images/point2-flg@2x.png" alt="ポイント２"></figure>
+                <div class="flex">
+                  <figure class="icon point2"><img src="images/point2-icon@2x.png" alt="高品質"></figure>
+                  <div class="item">
+                    <h3>高品質</h3>
+                    <p>厳選された大玉で高品質<br>沖縄産マンゴー</p>
+                  </div>
+                </div>
+                <div class="scroll-btn"></div>
+              </a>
+            </div>
+            <div class="features-sub-section">
+              <a href="#point3">
+                <figure class="flg"><img src="images/point3-flg@2x.png" alt="ポイント３"></figure>
+                <div class="flex">
+                  <figure class="icon point3"><img src="images/point3-icon@2x.png" alt="安心"></figure>
+                  <div class="item">
+                    <h3>安心</h3>
+                    <p>農薬の使用を極力抑えた<br>有機肥料で栽培</p>
+                  </div>
+                </div>
+                <div class="scroll-btn"></div>
+              </a>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="features-sub-section">
+              <a href="#point4">
+                <figure class="flg"><img src="images/point4-flg@2x.png" alt="ポイント４"></figure>
+                <div class="flex">
+                  <figure class="icon point4"><img src="images/point4-icon@2x.png" alt="信頼"></figure>
+                  <div class="item">
+                    <h3>信頼</h3>
+                    <p>大手百貨店などで<br>取り扱われる<br>最高級の品種</p>
+                  </div>
+                </div>
+                <div class="scroll-btn"></div>
+              </a>
+            </div>
+            <div class="features-sub-section">
+              <a href="#point5">
+                <figure class="flg"><img src="images/point5-flg@2x.png" alt="ポイント５"></figure>
+                <div class="flex">
+                  <figure class="icon point5"><img src="images/point5-icon@2x.png" alt="デザイン"></figure>
+                  <div class="item">
+                    <h3>デザイン</h3>
+                    <p>沖縄の伝統工芸、<br>紅型デザインの<br>特別なパッケージ</p>
+                  </div>
+                </div>
+                <div class="scroll-btn"></div>
+              </a>
+            </div>
+            <div class="features-sub-section">
+              <a href="#point6">
+                <figure class="flg"><img src="images/point6-flg@2x.png" alt="ポイント６"></figure>
+                <div class="flex">
+                  <figure class="icon point6"><img src="images/point6-icon@2x.png" alt="プラン"></figure>
+                  <div class="item">
+                    <h3>プラン</h3>
+                    <p>ギフトにも<br>自分のご褒美にも<br>選べるプラン</p>
+                  </div>
+                </div>
+                <div class="scroll-btn"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-point" id="point1">
+        <div class="back"></div>
+        <div class="features-point-section">
+          <div class="flex">
+            <figure class="flg"><img src="images/point1-flg@2x.png" alt="ポイント１"></figure>
+            <h3 class="sp-point">糖度15度以上の濃厚な味</h3>
+            <figure class="visual"><img src="images/Point1@2x.png" alt="糖度比較"></figure>
+            <div class="paragraph">
+              <h3 class="pc-point">糖度15度以上の濃厚な味</h3>
+              <p>一般のマンゴーは糖度が約13〜15度の中で、ひめぎみは40年以上蓄積された栽培技術で、安定的に15度以上の糖度となっています。 
+                濃厚な味と香り、高糖度の中にも絶妙な酸味があるバランスが噛み合った味が特徴です。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-point reverse" id="point2">
+        <div class="back"></div>
+        <div class="features-point-section">
+          <div class="flex">
+            <figure class="flg"><img src="images/point2-flg@2x.png" alt="ポイント２"></figure>
+            <h3 class="sp-point">厳選された大玉<br>高品質沖縄産マンゴー</h3>
+            <figure class="visual"><img src="images/Point2@2x.png" alt="カットマンゴー"></figure>
+            <div class="paragraph">
+              <h3 class="pc-point">厳選された大玉<br>高品質沖縄産マンゴー</h3>
+              <p>沖縄県本島北部にある大宜味村の農園で育まれています。 樹上で熟させ、一つ一つを手摘みで大玉なマンゴーを選別した上で収穫。
+                なおかつ、光糖度センサーで高品質のマンゴーのみがひめぎみとして選ばれ、箱に詰められています。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-point-sub">
+        <div class="section-title">
+          <h3>美味しいマンゴーの食べ方</h3>
+        </div>
+        <div class="flex">
+          <div class="features-point-sub-section">
+            <figure class="visual">
+              <img src="images/catting1@2x.png" alt="カッティングマンゴー">
+            </figure>
+            <div class="paragraph">
+              <p>種を中心に魚の3枚おろしのように3つに切る。</p>
+            </div>
+          </div>
+          <div class="features-point-sub-section">
+            <figure class="visual">
+              <img src="images/catting2@2x.png" alt="カッティングマンゴー">
+            </figure>
+            <div class="paragraph">
+              <p>さいの目にナイフを入れる。</p>
+            </div>
+          </div>
+          <div class="features-point-sub-section">
+            <figure class="visual">
+              <img src="images/catting3@2x.png" alt="カッティングマンゴー">
+            </figure>
+            <div class="paragraph">
+              <p>皮の方から指で押し上げ、スプーンですくってお召し上がり下さい。</p>
+            </div>
+          </div>
+        </div>
+      </div>    
+      <div class="cv">
+        <div class="inner">
+          <div class="grid">
+            <figure class="cv-img"><img src="images/cut_img@2x.png" alt="カットマンゴー"></figure>
+            <figure class="cv-logo"><img src="images/cv-logo@2x.png" alt="うえすぎ">
+              <figcaption class="cv-title">
+                <h2 class="ja">うえすぎ</h2>
+                <p class="en">GINOZA OKINAWA</p>
+              </figcaption>
+            </figure>
+            <table class="cv-table">
+              <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>秀品</td>
+                <td>優品</td>
+                <td>おつかれ<br>ちゃん</td>
+              </tr>
+            </table>
+            <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="features-point" id="point3">
+        <div class="back"></div>
+        <div class="features-point-section">
+          <div class="flex">
+            <figure class="flg"><img src="images/point3-flg@2x.png" alt="ポイント３"></figure>
+            <h3 class="sp-point">農薬の使用を極力抑えた<br>有機肥料で栽培</h3>
+            <figure class="visual ajast-p3"><img src="images/mango_photo_3@2x.png" alt="農家"></figure>
+            <div class="paragraph">
+              <h3 class="pc-point">農薬の使用を極力抑えた<br>有機肥料で栽培</h3>
+              <p>40年以上続く栽培方法は、農薬の使用を極力抑えた有機肥料栽培。科学物質の影響は殆どなく、小さなお子さまでも安心してお召し上がりいただけます。
+                また、野菜本来のスピードで育成されたひめぎみは、旨味をしっかりと蓄えた状態で収穫されるため、マンゴー本来の美味しさを思う存分味わうことができます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-point reverse" id="point4">
+        <div class="back"></div>
+        <div class="features-point-section">
+          <div class="flex">
+            <figure class="flg"><img src="images/point4-flg@2x.png" alt="ポイント４"></figure>
+            <h3 class="sp-point">大手百貨店でも取り扱われる<br>最高級の品種</h3>
+            <figure class="visual"><img src="images/Point2@2x.png" alt="マンゴー"></figure>
+            <div class="paragraph">
+              <h3 class="pc-point">大手百貨店でも取り扱われる<br>最高級の品種</h3>
+              <p>ひめぎみを生産する「ファインフルーツおおぎみ」で育てられたマンゴーは、
+                長期の育成で得たノウハウに裏付けされた味や品質が評価され、長年大手百貨店や高級果物専門店で取り扱われております。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-point" id="point5">
+        <div class="back"></div>
+        <div class="features-point-section">
+          <div class="flex">
+            <figure class="flg"><img src="images/point5-flg@2x.png" alt="ポイント５"></figure>
+            <h3 class="sp-point">沖縄の伝統工芸、<br>紅型デザインの特別なパッケージ</h3>
+            <figure class="visual ajast-p5"><img src="images/mango_photo_3@2x.png" alt="デザイン"></figure>
+            <div class="paragraph ajast-p5">
+              <h3 class="pc-point">沖縄の伝統工芸、<br>紅型デザインの特別なパッケージ</h3>
+              <p>沖縄の伝統工芸である「琉球びんがた」をモチーフとしたパッケージデザイン。紅型とは、豊かな自然風土の中で生まれ、独自の染技で育まれてきた沖縄の染物の総称です。
+                沖縄の由々しき文化を感じることができるパッケージとなっています。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-point reverse" id="point6">
+        <div class="back"></div>
+        <div class="features-point-section">
+          <div class="flex">
+            <figure class="flg"><img src="images/point6-flg@2x.png" alt="ポイント６"></figure>
+            <h3 class="sp-point">ギフトにも自分のご褒美にも<br>選べるプラン</h3>
+            <figure class="visual"><img src="images/Point6@2x.png" alt="デザイン"></figure>
+            <div class="paragraph">
+              <h3 class="pc-point">ギフトにも自分のご褒美にも<br>選べるプラン</h3>
+              <p>ギフト用やご自身用に合わせたプランを提供しております。ギフト用としては、味わいはもちろん、色や形も整っている「秀品」・「優品」を。 
+                ご自身やご家族へのご褒美用としては低価格でひめぎみを堪能いただける 「おつかれちゃん」をお勧めしております。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="plan">
+      <div class="inner">
+        <div class="section-title">
+          <h2>ギフトは日頃の感謝を。<br>自分には日頃のご褒美を。</h2>
+        </div>
+        <figure class="cv-logo"><img src="images/cv-logo@2x.png" alt="うえすぎ">
+          <figcaption class="cv-title">
+            <h2 class="ja">うえすぎ</h2>
+            <p class="en">GINOZA OKINAWA</p>
+          </figcaption>
+        </figure>
+        <div class="flex">
+          <div class="plan-sub-section">
+            <figure class="shop-1"><img src="images/shop1-flg@2x.png" alt="ギフトにおすすめ"></figure>
+            <figure><img src="images/mango_photo_3@2x.png" alt="マンゴー">
+              <figcaption class="gift-name">秀品</figcaption>
+            </figure>
+            <p>生まれは沖縄県本島北部 大宜味村。日の光をめいっぱい浴びて育ち、農薬の使用をできる限り抑え、一つ一つ箱入り娘のように大切に育てた最高品質の「ひめぎみ」です。<br> 
+              赤く染まったほっぺたが可愛い「ひめぎみ 秀品」を沖縄の伝統工芸「琉球びんがた」模様の専用ギフト箱で包みこみました。 <br>
+              あなたの大切な方へ笑顔と美味しさをお届けいたします。<br>ぜひお中元などの贈り物にご利用ください。</p>
+            <div class="item-info">
+              <div class="grid">
+                <div class="amount">1kg</div>
+                <div class="price">7,560<span>円</span></div>
+                <div class="souryou">送料無料</div>
+              </div>
+              <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+            </div>
+            <div class="item-info">
+              <div class="grid">
+                <div class="amount">2kg</div>
+                <div class="price">12,960<span>円</span></div>
+                <div class="souryou">送料無料</div>
+              </div>
+              <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+            </div>
+          </div>
+          <div class="plan-sub-section">
+            <figure class="shop-1"><img src="images/shop1-flg@2x.png" alt="ギフトにおすすめ"></figure>
+            <figure><img src="images/mango_photo_3@2x.png" alt="マンゴー">
+              <figcaption class="gift-name">優品</figcaption>
+            </figure>
+            <p>生まれは沖縄県本島北部 大宜味村。日の光をめいっぱい浴びて育ち、農薬の使用を出来る限り抑え、一つ一つ箱入り娘のように大切に育てた高品質の「ひめぎみ」です。
+              ほっぺたの赤身は秀品と比べると少なくなりますが、味はまったく遜色なしの「ひめぎみ 優品」を沖縄の伝統工芸「琉球びんがた」模様の専用ギフト箱で包みました。
+              あなたの大切な方へ笑顔と美味しさをお届けいたします。ぜひお中元などの贈り物にご利用ください。</p>
+            <div class="item-info">
+              <div class="grid">
+                <div class="amount">1kg</div>
+                <div class="price">6,480<span>円</span></div>
+                <div class="souryou">送料無料</div>
+              </div>
+              <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+            </div>
+            <div class="item-info">
+              <div class="grid">
+                <div class="amount">2kg</div>
+                <div class="price">10,880<span>円</span></div>
+                <div class="souryou">送料無料</div>
+              </div>
+              <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+            </div>
+          </div>
+          <div class="plan-sub-section">
+            <figure class="shop-2"><img src="images/shop2-flg@2x.png" alt="家庭用におすすめ"></figure>
+            <figure><img src="images/mango_photo_3@2x.png" alt="マンゴー">
+              <figcaption class="gift-name">おつかれちゃん</figcaption>
+            </figure>
+            <p>天真爛漫でバイタリティ溢れるマンゴーに育った「うえすぎ おつかれちゃん」。 <br>
+              元気いっぱいに育った「おつかれちゃん」は秀品や優品に比べて少し不揃いだったり、擦り傷があったり。<br>それでも「ちゃんとおいしい」個性的なおつかれちゃんを、ご自宅用やご自身へのご褒美にご利用ください。<br>
+              琉球びんがたの可愛いパッケージに身を包んで皆さまのもとに届けられます。</p>
+            <div class="item-info">
+              <div class="grid">
+                <div class="amount">2kg</div>
+                <div class="price">5,980<span>円</span></div>
+                <div class="souryou">送料無料</div>
+              </div>
+              <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="inner">
+        <figure class="sp-img">
+          <img src="./images/about-back@2x-min.png" alt="草原">
+        </figure>
+        <div class="about-article">
+          <h2 class="section-title">「うえすぎ」を生産する<br>ファインフルーツぎのざについて</h2>
+          <p class="about-content">ひめぎみは沖縄県の本島北部、大宜味村にある有限会社ファインフルーツおおぎみで生産しています。<br>
+            44年間と長くマンゴー作りに取り組んでいる有限会社ファインフルーツおおぎみでは土壌作りをこだわり、
+            濃厚な味や香りを実現した素晴らしいマンゴーを育て続けています。<br> 
+            ひとつひとつ大事に育てあげたマンゴーを農家が厳選する最も美味しい食べごろに合わせて出荷してくれます。</p>
+        </div>
+      </div>
+    </section>
+    <section id="customers-voice">
+      <div class="inner">
+        <h2 class="section-title">満足度が高い評価をいただいています！</h2>
+        <div class="customer-content">
+          <div class="voice-sub-section">
+            <h3 class="customer-name">40代・女性</h3>
+            <hr>
+            <p class="customer-item">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入りま</p>
+          </div>
+          <div class="voice-sub-section">
+            <h3 class="customer-name">40代・女性</h3>
+            <hr>
+            <p class="customer-item">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入りま</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="cv">
+      <div class="inner">
+        <div class="grid">
+          <figure class="cv-img"><img src="images/cut_img@2x.png" alt="カットマンゴー"></figure>
+          <figure class="cv-logo"><img src="images/cv-logo@2x.png" alt="うえすぎ">
+            <figcaption class="cv-title">
+              <h2 class="ja">うえすぎ</h2>
+              <p class="en">GINOZA OKINAWA</p>
+            </figcaption>
+          </figure>
+          <table class="cv-table">
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>秀品</td>
+              <td>優品</td>
+              <td>おつかれ<br>ちゃん</td>
+            </tr>
+          </table>
+          <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+        </div>
+      </div>
+    </div>       
+    <section id="media">
+      <div class="inner">
+        <h2 class="section-title">メディア掲載</h2>
+        <div id="slider">
+          <div class="slider-item">
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。 テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。 テキストが入ります。テキストが入ります。</p>
+          </div>
+          <div class="slider-item">
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。 テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。 テキストが入ります。テキストが入ります。</p>
+          </div>
+          <div class="slider-item">
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。 テキストが入ります。テキストが入ります。テキストが入ります。
+              テキストが入ります。 テキストが入ります。テキストが入ります。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reservation">
+      <div class="reservation-area">
+        <div class="inner">
+          <h2 class="section-title">ご予約から配送までの流れ</h2>
+          <div class="flex">
+            <div class="reservation-sub-section">
+              <figure><img src="images/haisou1-icon@2x.png" alt="ご予約"></figure>
+              <h3 class="reservation-item">ご予約</h3>
+              <p class="reservation-content"><a href="#">沖縄CLIPマルシェ</a>よりご希望の商品をご購入ください。<br>
+                マンゴーが最も美味しい食べごろに出荷するため、配送の日時指定ができかねます。ご了承の上、ご予約お願いします。</p>
+            </div>
+            <div class="reservation-sub-section">
+              <figure><img src="images/haisou2-icon@2x.png" alt="配送日程の連絡"></figure>
+              <h3 class="reservation-item">配送日程の連絡</h3>
+              <p class="reservation-content">ご予約いただいた方から順番にマンゴーの出荷の日程が決まり次第、
+                ご登録いただいたメールアドレスにご連絡させていただきます。</p>
+            </div>
+            <div class="reservation-sub-section">
+              <figure><img src="images/haisou3-icon@2x.png" alt="配送"></figure>
+              <h3 class="reservation-item">配送</h3>
+              <p class="reservation-content">7月〜8月を目処に出荷させていただきます。<br>青果物は賞味期限が短い為、
+                不在日や受取不可日がある場合はご連絡ください。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq">
+      <div class="inner">
+        <h2 class="section-title">ご予約から配送までの流れ</h2>
+        <div class="faq-sub-section">
+          <div class="flex accordion-point">
+            <h3>Q1</h3>
+            <p>発送の日程の指定はできますでしょうか？</p>
+          </div>
+          <div class="accordion-box">
+            <div class="flex">
+              <h3>A1</h3>
+              <p>マンゴーの収穫状況により発送状況が変わりますので、お届け日の指定はお受けできかねます。</p>
+          </div>
+          </div>
+        </div>
+        <div class="faq-sub-section">
+          <div class="flex accordion-point">
+            <h3>Q2</h3>
+            <p>ひと箱にどのくらいのマンゴーが入っていますか？</p>
+          </div>
+          <div class="accordion-box">
+            <div class="flex">
+              <h3>A2</h3>
+              <p>秀品、優品、それぞれ1kgですと2～3玉、2kgですと3～6玉です。おつかれちゃん2kgも3～6玉です。
+                マンゴーの生育状況により、異なる場合がございます。</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-sub-section">
+          <div class="flex accordion-point">
+            <h3>Q3</h3>
+            <p>いつ頃から発送されますか？</p>
+          </div>
+          <div class="accordion-box">
+            <div class="flex">
+              <h3>A3</h3>
+              <p>マンゴーの生育状況と台風などの天候にもよりますが、毎年7月上旬から順次発送を予定しております。</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-sub-section">
+          <div class="flex accordion-point">
+            <h3>Q4</h3>
+            <p>発送の日程が変更する場合はございますか？</p>
+          </div>
+          <div class="accordion-box">
+            <div class="flex">
+              <h3>A4</h3>
+              <p>台風など天候や収穫状況によって発送できない場合、別途ご連絡をさせていただく場合がございます。</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-sub-section">
+          <div class="flex accordion-point">
+            <h3>Q5</h3>
+            <p>キャンセルはできますか？</p>
+          </div>
+          <div class="accordion-box">
+            <div class="flex">
+              <h3>A5</h3>
+              <p>生もののため、お客様のご都合によるキャンセルや返品はお受けできません。<br>
+                ただし配送や梱包が原因によるマンゴーの破損、汚損、またはご注文商品とお届けした商品が異なる場合等は、返品・交換の対応をいたします。</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-sub-section">
+          <div class="flex accordion-point">
+            <h3>Q6</h3>
+            <p>熨斗はつけられますか？</p>
+          </div>
+          <div class="accordion-box">
+            <div class="flex">
+              <h3>A6</h3>
+              <p>名入れは不可となりますが、お中元用の熨斗はお付けできます。<br>
+                ご注文の際の備考欄に「お中元熨斗をご希望する」旨のご入力をお願いいたします。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="cv">
+      <div class="inner">
+        <div class="grid">
+          <figure class="cv-img"><img src="images/cut_img@2x.png" alt="カットマンゴー"></figure>
+          <figure class="cv-logo"><img src="images/cv-logo@2x.png" alt="うえすぎ">
+            <figcaption class="cv-title">
+              <h2 class="ja">うえすぎ</h2>
+              <p class="en">GINOZA OKINAWA</p>
+            </figcaption>
+          </figure>
+          <table class="cv-table">
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>秀品</td>
+              <td>優品</td>
+              <td>おつかれ<br>ちゃん</td>
+            </tr>
+          </table>
+          <a class="button" href="#"><span class="label">ご購入はこちら</span></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <aside>
+    <div class="aside-area">
+      <div class="inner">
+        <div class="flex sns">
+          <figure><img src="images/facebook@2x.png" alt="フェイスブック"></figure>
+          <figure class="ajast"><img src="images/instagram@2x.png" alt="インスタグラム"></figure>
+        </div>
+        <div class="flex company">
+          <div class="dummy-area"><img src="http://placehold.it/200x230"></div>
+          <table>
+            <tr>
+              <th>会社名<span>：</span></th>
+              <td>沖縄ダミーコーポレーション株式会社</td>
+            </tr>
+            <tr>
+              <th>運営責任者<span>：</span></th>
+              <td>沖縄　太郎</td>
+            </tr>
+            <tr>
+              <th>所在地<span>：</span></th>
+              <td>〒900-00xx <br>沖縄県那覇市松山x丁目x番1号</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <footer>
+    <p id="page-top"><a href="#"></a></p>	
+    <address class="copyright">
+      Copyright &copy; OKINAWA Inamine <br>All Rights Reserved.
+    </address>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/jquery.slider.js"></script>
+  <script src="./js/script.js"></script>
+</div>
 </body>
 </html>

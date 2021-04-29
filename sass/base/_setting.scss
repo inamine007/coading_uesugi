@@ -3,29 +3,44 @@
 ///////////////////
 
 // 幅関係 --------------------
-$width-base: 1200px;
+$width-base: 1040px;
 $width-main: 800px;
 $width-side: 360px;
+$spacing: 8px;
+$spacing-xs: 16px;
+$spacing-sm: 24px;
+$spacing-md: 32px;
+$spacing-l: 40px;
+$spacing-xl: 48px;
+$spacing-xxl: 56px;
+$spacing-xxxl: 64px;
 
 // フォント関係 --------------------
-$font-base: "Yu Gothic", Sans-Serif;
+$font-base: fot-tsukuardgothic-std, sans-serif;
+$font-noto: "Noto Sans JP", sans-serif;
 $font-serif: "Yu Mincho", serif;
 
 // 色関係 --------------------
 // サイトカラー
-$color-main: #fff;
-$color-sub: #ff8cdd;
+$color-main: #ED721A;
+$color-sub: #EBE7DC;
+$color-hukidasi: #C5A97A;
 // フォントカラー
-$color-font: #333;
+$color-font: #000000;
+$color-font-sub: #A07951;
+$color-logo: #23514D;
 // リンクカラー
-$color-link: #ff8c28;
+$color-link: #FF0000;
+$color-link-hover: #C5A97A;
+// その他
+$color-shadow: #00000080;
 
 // ブレイクポイント --------------------
 $breakpoints: (
-  xs: "only screen and (max-width: 320px)",
-  s: "only screen and (max-width: 575px)",
+  xs: "only screen and (max-width: 375px)",
+  s: "only screen and (max-width: 435px)",
   m: "only screen and (max-width: 767px)",
-  l: "only screen and (max-width: 991px)",
+  l: "only screen and (max-width: 960px)",
   xl: "only screen and (min-width: 1199px)"
 );
 

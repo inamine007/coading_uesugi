@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.32" height="115.244" viewBox="0 0 24.32 115.244">
+  <g id="Pagetopボタン" transform="translate(-1205.255 -12816.256)">
+    <g id="TOPへ戻るボタン" transform="translate(7.633 -288.703)">
+      <line id="線_3" data-name="線 3" y1="17.469" transform="translate(1209.781 13106.907)" fill="none" stroke="#ed721a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.894"/>
+      <path id="パス_805" data-name="パス 805" d="M1200.367,7535.031l9.415-11.033,9.415,11.033" transform="translate(0 5582.91)" fill="none" stroke="#ed721a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.894"/>
+    </g>
+    <text id="page_top" data-name="page top" transform="translate(1213 12892.5) rotate(90)" fill="#ed721a" font-size="20" font-family="Helvetica"><tspan x="-38.926" y="0">page top</tspan></text>
+  </g>
+</svg>
