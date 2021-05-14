@@ -243,7 +243,7 @@ section:not(:first-of-type) {
   top: 15px;
   right: 23px;
   content: '';
-  background: url('/public/images/arrow-icon.svg') no-repeat;
+  background: url('../images/arrow-icon.svg') no-repeat;
   background-size: 100%;
   z-index: 1;
   width: 18px;
@@ -542,7 +542,7 @@ header .nav-footer .dummy-space {
   ----- メインビジュアル -----
 */
 .mv {
-  background: url('/public/images/kv@2x.png') no-repeat;
+  background: url('../images/kv@2x.png') no-repeat;
   height: calc(100vh - 100px);
   width: 100%;
   background-size: cover;
@@ -581,7 +581,7 @@ header .nav-footer .dummy-space {
 */
 /* コンセプト */
 #concept {
-  background: url('/public/images/bg_back@2x-min.png') no-repeat;
+  background: url('../images/bg_back@2x-min.png') no-repeat;
   background-size: cover;
   width: 100%;
   padding: 150px 120px;
@@ -749,7 +749,7 @@ header .nav-footer .dummy-space {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: url('/public/images/down-icon@2x.png') no-repeat;
+  background: url('../images/down-icon@2x.png') no-repeat;
   background-size: cover;
   position: absolute;
   bottom: -25px;
@@ -765,7 +765,7 @@ header .nav-footer .dummy-space {
 }
 
 #features .features-point .back {
-  background: url('/public/images/bg_back@2x-min.png') no-repeat;
+  background: url('../images/bg_back@2x-min.png') no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -930,7 +930,7 @@ header .nav-footer .dummy-space {
   top: 83px;
   right: -35px;
   content: '';
-  background: url('/public/images/catting-arrow.svg') no-repeat;
+  background: url('../images/catting-arrow.svg') no-repeat;
   width: 20px;
   height: 22px;
 }
@@ -1082,7 +1082,7 @@ header .nav-footer .dummy-space {
 
 /* アバウト */
 #about {
-  background: url('/public/images/about-back.jpg') no-repeat;
+  background: url('../images/about-back.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -1223,7 +1223,7 @@ header .nav-footer .dummy-space {
 
 /* 予約 */
 #reservation {
-  background: url('/public/images/bg_back@2x-min.png') no-repeat;
+  background: url('../images/bg_back@2x-min.png') no-repeat;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1265,7 +1265,7 @@ header .nav-footer .dummy-space {
   top: 30px;
   right: -35px;
   content: '';
-  background: url('/public/images/catting-arrow.svg') no-repeat;
+  background: url('../images/catting-arrow.svg') no-repeat;
   width: 20px;
   height: 22px;
 }
@@ -1389,7 +1389,7 @@ header .nav-footer .dummy-space {
   ----- サイド -----
 */
 aside {
-  background: url('/public/images/bg_back@2x-min.png') no-repeat;
+  background: url('../images/bg_back@2x-min.png') no-repeat;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1483,7 +1483,7 @@ footer br {
 
 #page-top a {
   display: block;
-  background: url('/public/images/Pagetop-btn.svg') no-repeat;
+  background: url('../images/Pagetop-btn.svg') no-repeat;
   color: #ED721A;
   width: 24px;
   height: 115px;
@@ -2024,9 +2024,9 @@ footer br {
     overflow-y: scroll;
   }
   .mv {
-    background-image: url('/public/images/kv@2x.png'), -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0.4)), color-stop(70%, rgba(255, 255, 255, 0.7)), color-stop(80%, white));
-    background-image: url('/public/images/kv@2x.png'), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.7) 70%, white 80%);
-    background-image: url('/public/images/kv@2x.png'), linear-gradient(to top, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.7) 70%, white 80%);
+    background-image: url('../images/kv@2x.png'), -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0.4)), color-stop(70%, rgba(255, 255, 255, 0.7)), color-stop(80%, white));
+    background-image: url('../images/kv@2x.png'), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.7) 70%, white 80%);
+    background-image: url('../images/kv@2x.png'), linear-gradient(to top, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.7) 70%, white 80%);
     background-blend-mode: screen;
     height: calc(100vh - 150px);
   }
@@ -2197,7 +2197,7 @@ footer br {
     margin-right: 0;
   }
   #reservation .reservation-area .inner .flex .reservation-sub-section::after {
-    background: url('/public/images/catting-arrow-down.svg') no-repeat;
+    background: url('../images/catting-arrow-down.svg') no-repeat;
     top: auto;
     bottom: -35px;
     left: 50%;
@@ -2235,7 +2235,7 @@ footer br {
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-    background: url('/public/images/accordion-arrow.svg') no-repeat;
+    background: url('../images/accordion-arrow.svg') no-repeat;
     background-size: cover;
     width: 18px;
     height: 12px;
@@ -2412,7 +2412,7 @@ footer br {
     right: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-    background: url('/public/images/catting-arrow-down.svg') no-repeat;
+    background: url('../images/catting-arrow-down.svg') no-repeat;
   }
   #features .features-point-sub .flex .features-point-sub-section .visual {
     width: 80%;
